@@ -11,6 +11,7 @@ public class HealthBar : MonoBehaviour
     public Image fill;
 
 
+
     public void SetMaxHealth(int maxhealth)
     {
 
@@ -27,10 +28,5 @@ public class HealthBar : MonoBehaviour
 
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
-
-    /*private void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }*/
 
 }

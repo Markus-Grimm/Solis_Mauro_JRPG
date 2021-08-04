@@ -434,7 +434,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game title
+  m_Text: Final Motores Graficos II
 --- !u!222 &1164960892
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -468,7 +468,7 @@ RectTransform:
   m_GameObject: {fileID: 1412969234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children:
   - {fileID: 1164960890}
   - {fileID: 2057117495}
@@ -493,7 +493,6 @@ GameObject:
   - component: {fileID: 1414873550}
   - component: {fileID: 1414873549}
   - component: {fileID: 1414873548}
-  - component: {fileID: 1414873552}
   - component: {fileID: 1414873553}
   - component: {fileID: 1414873554}
   m_Layer: 5
@@ -584,18 +583,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1414873552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414873547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629658df52fa4d44cb37c40071bb2274, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1414873553
 MonoBehaviour:
   m_ObjectHideFlags: 0

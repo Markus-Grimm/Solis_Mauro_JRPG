@@ -38,12 +38,21 @@ public class Movement : MonoBehaviour
                 if (axisDirection.x > 0)
                 {
                     direction = Direction.rigth;
-                    if (!CheckCollision) targetPosition += Vector2.right;
+                    if (!CheckCollision) { targetPosition += Vector2.right; }
+                    else
+                    {
+
+                    }
+
                 }
                 else
                 {
                     direction = Direction.left;
-                    if (!CheckCollision) targetPosition -= Vector2.right;
+                    if (!CheckCollision) { targetPosition -= Vector2.right; }
+                    else
+                    {
+
+                    }
                 }
             }
             else
@@ -51,12 +60,20 @@ public class Movement : MonoBehaviour
                 if (axisDirection.y > 0)
                 {
                     direction = Direction.up;
-                    if (!CheckCollision) targetPosition += Vector2.up;
+                    if (!CheckCollision) { targetPosition += Vector2.up; }
+                    else
+                    {
+
+                    }
                 }
                 else
                 {
                     direction = Direction.down;
-                    if (!CheckCollision) targetPosition -= Vector2.up;
+                    if (!CheckCollision) { targetPosition -= Vector2.up; }
+                    else
+                    {
+
+                    }
                 }
             }
         }
@@ -86,12 +103,12 @@ public class Movement : MonoBehaviour
             return rh.collider != null;
         }
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collision");
         if (collision.transform.tag == "Enemy")
         {
-            Debug.Log("Encuentro");
+            
         }
     }
 }
